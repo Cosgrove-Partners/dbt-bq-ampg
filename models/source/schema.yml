@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: google_sheets
+    dataset: src_google_sheets
+    tables:
+      - name: balance_sheet_ampg
+      - name: census_data_1tomplumber
+      - name: census_data_ampg
+      - name: census_data_revive
+      - name: financial_by_customer_ampg
+      - name: financial_by_product_ampg
+      - name: profit_loss_ampg
+  - name: src_ampg_api
+    dataset: src_ampg_api
+    tables:
+      - name: invoices
